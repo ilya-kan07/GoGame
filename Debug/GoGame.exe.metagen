@@ -1,0 +1,82 @@
+  GoGame.Form1.resources - Embedded, ContainedInManifestFile, 
+  GoGame.FormFinish.resources - Embedded, ContainedInManifestFile, 
+  GoGame.FormStart.resources - Embedded, ContainedInManifestFile, 
+ImageRuntimeVersion: v4.0.30319
+Assembly GoGame, Version=1.0.*, Culture=Инвариантный язык (Инвариантная страна): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Struct DeltaPos: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+  Fields:
+    Int32 dx : Public
+    Int32 dy : Public
+Struct Position: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+  Fields:
+    Int32 i : Public
+    Int32 j : Public
+Struct Board: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+    Void .ctor(Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    createClone(): PrivateScope, Public, HideBySig
+    Size(): PrivateScope, Public, HideBySig
+    getState(Int32, Int32): PrivateScope, Public, HideBySig
+    reverseColor(PlaceState): PrivateScope, Public, HideBySig
+    isEmpty(Int32, Int32): PrivateScope, Public, HideBySig
+    existNextStepForColor(PlaceState): PrivateScope, Public, HideBySig
+    canMakeStep(Int32, Int32, PlaceState): PrivateScope, Public, HideBySig
+    makeStep(Int32, Int32, PlaceState, Boolean(HasFieldMarshal)): PrivateScope, Public, HideBySig
+    getStateCount(PlaceState): PrivateScope, Public, HideBySig
+    getMsg(): PrivateScope, Public, HideBySig
+    backStep(): PrivateScope, Public, HideBySig
+    createListAvaliableForStep(PlaceState): PrivateScope, Public, HideBySig
+    getFreeSideCount(PlaceState): PrivateScope, Public, HideBySig
+    getScore(PlaceState): PrivateScope, Public, HideBySig
+    testCount(): PrivateScope, Public, HideBySig
+    prepareForTest(Int32): PrivateScope, Public, HideBySig
+Struct PlaceState: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+Class GoGame.FormFinish: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    setInfo(Int32, Int32): PrivateScope, Public, HideBySig
+Class GoGame.FormStart: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    getSize(): PrivateScope, Public, HideBySig
+Struct Player: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+    Void .ctor(PlayerLevel, PlaceState): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    makeStep(ValueType Board IsBoxed): PrivateScope, Public, HideBySig
+    getPlayerColor(): PrivateScope, Public, HideBySig
+    setLevel(PlayerLevel): PrivateScope, Public, HideBySig
+Class GoGame.Form1: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.ValueType board Board IsBoxed : Public
+    System.ValueType player Player IsBoxed : Public
+    Boolean gamefinished : Public
+    Boolean showallowed : Public
+    PlaceState humancolor : Public
+Struct PlayerLevel: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName

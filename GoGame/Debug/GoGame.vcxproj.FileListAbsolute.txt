@@ -1,0 +1,12 @@
+C:\Users\Alisher\Downloads\101510053_exe\GoGame\GoGame\Debug\GoGame.vcxproj.AssemblyReference.cache
+C:\Users\Alisher\Downloads\101510053_exe\GoGame\GoGame\Debug\GoGame.vcxproj.SuggestedBindingRedirects.cache
+C:\Users\Alisher\Downloads\101510053_exe\GoGame\GoGame\Debug\GoGame.Form1.resources
+C:\Users\Alisher\Downloads\101510053_exe\GoGame\GoGame\Debug\GoGame.FormFinish.resources
+C:\Users\Alisher\Downloads\101510053_exe\GoGame\GoGame\Debug\GoGame.FormStart.resources
+C:\Users\Alisher\Downloads\101510053_exe\GoGame\GoGame\Debug\GoGame.vcxproj.GenerateResource.cache
+C:\Users\ikand\OneDrive\Рабочий стол\Документы\учеба\Технология программирования\Курсы и лабы\курсач\GoGame\GoGame\Debug\GoGame.vcxproj.AssemblyReference.cache
+C:\Users\ikand\OneDrive\Рабочий стол\Документы\учеба\Технология программирования\Курсы и лабы\курсач\GoGame\GoGame\Debug\GoGame.vcxproj.SuggestedBindingRedirects.cache
+C:\Users\ikand\OneDrive\Рабочий стол\Документы\учеба\Технология программирования\Курсы и лабы\курсач\GoGame\GoGame\Debug\GoGame.Form1.resources
+C:\Users\ikand\OneDrive\Рабочий стол\Документы\учеба\Технология программирования\Курсы и лабы\курсач\GoGame\GoGame\Debug\GoGame.FormFinish.resources
+C:\Users\ikand\OneDrive\Рабочий стол\Документы\учеба\Технология программирования\Курсы и лабы\курсач\GoGame\GoGame\Debug\GoGame.FormStart.resources
+C:\Users\ikand\OneDrive\Рабочий стол\Документы\учеба\Технология программирования\Курсы и лабы\курсач\GoGame\GoGame\Debug\GoGame.vcxproj.GenerateResource.cache

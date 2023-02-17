@@ -1,0 +1,5 @@
+﻿cl : командная строка  warning D9035: использование параметра "clr:pure" нежелательно, он будет удален в следующих выпусках
+  player.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\yvals.h(253): warning STL4001: /clr:pure is deprecated and will be REMOVED.
+  AssemblyInfo.obj : обнаружен модуль MSIL; для MSIL последовательная компоновка отключена; выполняется полная компоновка
+  GoGame.vcxproj -> C:\Users\ikand\OneDrive\Рабочий стол\Документы\учеба\Технология программирования\Курсы и лабы\курсач\GoGame\Debug\GoGame.exe
